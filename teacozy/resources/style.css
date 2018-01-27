@@ -1,0 +1,134 @@
+
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 70px;
+}
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 79px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  margin-top: 0;
+  }
+
+.logo {
+  padding: 5px;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  width: 167px;
+  display: block;
+  padding-left: 10px;
+}
+
+.navigation {
+  display: block;
+  padding: 20px 10px;
+}
+
+.navigation a {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.title {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  text-align: center;
+  background-position: center;
+
+}
+
+#titleimg {
+  align-items: center;
+}
+
+.Mission {
+  align-items: center;
+  padding: 10px 10px;
+  background-color: black;
+  display: block;
+  width: 1200px;
+}
+
+.images {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.img, img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.images .img, span {
+  padding: 5px;
+  text-align: center;
+}
+
+.img {
+  padding: 5px;
+  height: 238px;
+}
+
+.Locations {
+  display: flex;
+  height: 500px;
+  width: 1000px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  margin-top: 70px;
+}
+
+.Locations, h1 {
+  text-align: center;
+  display: block;
+  padding: 10px 10px;
+}
+
+.downtown, .East.Bayside, .Oakdale {
+  width: 300px;
+  display: flex;
+  display: inline-block;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 10px;
+
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  display: block;
+}
+.copyright {
+
+  text-align: left;
+  margin: 30px;
+  width: 100%;
+  padding-left: 20px;
+}
